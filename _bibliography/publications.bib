@@ -1,0 +1,47 @@
+---
+---
+
+@article{williams_potential_2024-3,
+	title = {Potential Games on Cubic Splines for Self-Interested Multi-Agent Motion Planning},
+	volume = {8},
+	issn = {2475-1456},
+	doi = {10.1109/LCSYS.2024.3491052},
+	abstract = {Existing multi-agent motion planners face scalability challenges with the number of agents and route plans that span long time horizons. We tackle these issues by introducing additional abstraction by interpolating agent trajectories with natural cubic splines and leveraging existing results that under some natural assumptions, the resulting game has the structure of a potential game. We prove a simultaneous gradient descent method using independent per-agent step sizes is guaranteed to converge to a local Nash equilibrium. Compared with recent {iLQR}-based potential game solvers, our method solves for local Nash equilibrium trajectories faster in games with up to 52 agents, and we demonstrate scalability to long horizons.},
+	pages = {2487--2492},
+	journal = {{IEEE} Control Systems Letters},
+	author = {Williams, Samuel and Deshmukh, Jyotirmoy},
+	year = {2024},
+	month = {November},
+	selected={true}
+}
+
+@inproceedings{williams_automatic_2025,
+	location = {Zagreb, {HR}},
+	title = {Automatic Synthesis of Smooth Infinite Horizon Paths Satisfying Linear Temporal Logic Specifications},
+	isbn = {978-3-031-98685-7},
+	doi = {10.1007/978-3-031-98685-7_12},
+	abstract = {Automatically constructing smooth paths that satisfy a formal specification is a challenging problem. Existing methods struggle to scale to long horizon specifications and challenging environments. We present a method that uses abstraction, model checking, and convex optimization to solve for a smooth Bézier spline that is guaranteed to satisfy a Linear Temporal Logic specification. Our approach uses a coarse abstraction to avoid the state explosion of other abstraction based methods, and successfully avoids the computational challenges of directly optimizing the non-convex temporal logic semantics. We prove our method is sound and complete and demonstrate a significant computational advantage relative to state of the art approaches. Generating such smooth paths has natural applications in path planning for autonomous robots, and we demonstrate the applicability of our method on path planning for a quadrotor.},
+	pages = {249--273},
+	booktitle = {Computer Aided Verification},
+	publisher = {Springer Nature Switzerland},
+	author = {Williams, Samuel and Deshmukh, Jyotirmoy},
+	year = {2025},
+	month = {July},
+	langid = {english},
+	selected={true}
+}
+
+@inproceedings{hashemi_lb4tl_2024,
+	location = {Boulder, {CO}},
+	title = {{LB}4TL: A Smooth Semantics for Temporal Logic to Train Neural Feedback Controllers},
+	abstract = {This paper presents a framework for training neural network ({NN})-based feedback controllers for autonomous agents with deterministic nonlinear dynamics to satisfy task objectives and safety constraints expressed in discrete-time Signal Temporal Logic ({DT}-{STL}). Control synthesis that uses the robustness semantics of {DT}-{STL} poses challenges due to its non-convexity, non-differentiability, and recursive definition, in particular when it is used to train {NNbased} controllers. We introduce a smooth neuro-symbolic computation graph to encode {DTSTL} robustness to represent a smooth approximation of the robustness, enabling the use of powerful stochastic gradient descent and backpropagation-based optimization for training. Our approximation guarantees that it lower bounds the robustness value of a given {DT}-{STL} formula, and shows orders of magnitude improvement over existing smooth approximations when applied to control synthesis. We demonstrate our approach on planning to satisfy complex spatiotemporal and sequential tasks, and show scalability with formula complexity.},
+	eventtitle = {The 8th {IFAC} Conference on Analysis and Design of Hybrid Systems ({ADHS})},
+	booktitle = {The 8th {IFAC} Conference on Analysis and Design of Hybrid Systems ({ADHS})},
+	author = {Hashemi, Navid and Williams, Samuel and Hoxha, Bardh and Prokhorov, Danil and Fainekos, Georgios and Deshmukh, Jyotirmoy},
+	doi = {10.1016/j.ifacol.2024.07.445},
+	year = {2024},
+	month = {July},
+	langid = {english},
+	selected={true}
+}
+
