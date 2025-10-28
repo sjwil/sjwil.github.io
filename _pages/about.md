@@ -9,10 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href=https://scholar.google.com/citations?user=draxNowAAAAJ><i class="ai ai-google-scholar-square ai-3x"></i><br>Google Scholar</a>
-    <a href=https://github.com/sjwil><i class="fab fa-2x fa-github"></i><br>Github</a>
-    <a href=https://www.linkedin.com/in/sam-williams-ab18a1171><i class="fa-brands fa-square-linkedin"><br>Linkedin</i>
-    <a href=/assets/pdf/CV.pdf><i class="ai fa-2x ai-cv"></i><br>CV</a>
+    <a href=https://scholar.google.com/citations?user=draxNowAAAAJ><i class="ai ai-google-scholar-square ai-3x"></i></a>
+    <a href=https://github.com/sjwil><i class="fab fa-2x fa-github"></i></a>
+    <a href=https://www.linkedin.com/in/sam-williams-ab18a1171><i class="fa-brands fa-linkedin-in"></i>
+    <a href=/assets/pdf/CV.pdf><i class="ai fa-2x ai-cv"></i></a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
